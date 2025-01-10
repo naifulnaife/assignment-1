@@ -20,6 +20,10 @@
     font-weight: 400;
     font-style: normal;
   }
+  body{
+    margin-left: 160px;
+    margin-right: 160px;
+  }
   
 
   /* navigation-part */
@@ -27,7 +31,7 @@
 .navigation{
     display: flex;
     justify-content: space-between;
-    margin:0 180px 50px 180px;
+    margin:0 160px 50px 160px;
     
 }
 .sign-in{
@@ -45,7 +49,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0 180px 50px 180px;
+    margin:0 160px 50px 160px;
     
     
 }
@@ -56,7 +60,7 @@
     
 }
 .contents{
-    padding: 150px 130px 150px 130px;
+    padding: 117px 130px 117px 100px;
     
 }
 .bold-contents{
@@ -79,10 +83,10 @@
 /* second-page */
 .h1-font{
     font-size: 40px;
-    margin:0 180px 50px 180px;
+    margin:0 160px 50px 160px;
 }
 .piller-of-Bangladesh{
-    margin:0 180px 50px 180px;
+    margin:0 160px 50px 160px;
     display: flex;
     gap: 30px;
     justify-content: center;   
@@ -101,3 +105,104 @@ p{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
+.p2{
+    margin:0 160px 50px 160px;
+    
+}
+.box-2{
+    padding: 32px;
+    border-radius: 16px;
+    gap: 30px;
+    width: 410px;
+    height: 325px;
+}
+.box1{
+    background-color:rgba(84, 144, 245, 0.2) ;
+}
+.box2{
+    background-color: rgba(198, 228, 214, 1);
+}
+.box3{
+    background-color: rgba(247, 235, 207, 1);
+}
+.btn-learn-more{
+    padding: 11px 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 50px;
+
+}
+.btn-1{
+    background-color:#5490F5 ;
+}
+.btn-2{
+    background-color: #09A15C ;
+}
+.btn-3{
+    background-color: #FFC239;
+}
+.CA{
+    color:rgba(14, 14, 14, 0.6) ;
+    margin-top: 0;
+}
+.bg-yunus{
+    background-color: #F1F1F3;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-image:url('/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-position-y: 37px;
+       
+}
+td{
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-color:rgba(14, 14, 14, 0.15);
+    
+}
+th{
+    background-color:rgba(198, 228, 214, 1);
+    border-color:rgba(14, 14, 14, 0.15);
+}
+table{
+    border-collapse: collapse;
+    width: 1216px;
+    height: 345px;
+    background-color: #F1F1F3; 
+}
+
+.pad{
+    padding: 24px 24px;
+}
+.th-font{
+    font-size: 20px;
+}
+.table-border{
+    border-color:  #F1F1F3;
+}
+.th-question{
+    text-align: left;
+}
+.select{
+    background-color: rgba(198, 228, 214, 1);
+    padding: 10px 14px;
+    border-radius: 4px;
+}
+.table-pad{
+    width: 1280px;
+    height: 409px;
+    background-color: #F1F1F3;
+    border-radius: 16px;
+}
+.tab-pad{
+    padding: 32px;
+}
+.td-pad{
+    margin: 24px;
+}
+
+    
