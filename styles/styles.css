@@ -162,7 +162,7 @@ p{
     background-color: #F1F1F3;
     padding: 48px 24px;
     border-radius: 16px;
-    background-image:url('/assets/quote-bg.png');
+    background-image:url('assets/quote-bg.png');
     background-repeat: no-repeat;
     background-position-x: 24px;
     background-position-y: 37px;
@@ -271,7 +271,6 @@ table{
     margin-top: 0;
 }
 .btn-taka{
-    /* padding: 40px; */
     border-radius: 16px; 
     min-width: 240px;
     height: 128px;
