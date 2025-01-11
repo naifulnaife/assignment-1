@@ -170,9 +170,10 @@ th{
 }
 table{
     border-collapse: collapse;
-    width: 1216px;
+    min-width: 1216px;
     height: 345px;
     background-color: #F1F1F3; 
+    
 }
 
 .pad{
@@ -193,7 +194,7 @@ table{
     border-radius: 4px;
 }
 .table-pad{
-    width: 1280px;
+    min-width: 1280px;
     height: 409px;
     background-color: #F1F1F3;
     border-radius: 16px;
@@ -231,7 +232,7 @@ table{
 }
 .back{
     background-color: #F1F1F3;
-    width: 1280px;
+    min-width: 1280px;
     height: 402px;
     border-radius: 24px;
     padding: 48px;
@@ -242,4 +243,103 @@ table{
 .all-content{
     margin-bottom: 20px;
 }
+.donate{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.donate-p{
+    min-width: 1280px;
+    height: 48px;
+    padding-left: 88px;
+    padding-right: 88px;
+    margin-top: 0;
+}
+.btn-taka{
+    padding: 40px;
+    border-radius: 16px; 
+    min-width: 240px;
+    height: 128px;
+    border-style: none;
+    
+    
+}
+.btn-hover:hover{
+    background-color: rgba(198, 228, 214, 1);
+}
+.box-taka4{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.place-holder{
+    min-width: 1032px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #F1F1F3;
+    border:none;
+}
+.place{
+    display: flex;
+    justify-content: center;
+    margin-bottom:30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin-top: 5px;
+    background-color:rgba(0, 106, 80, 1) ;
+}
+.subscrible{
+
+    text-align: center;
+    margin-bottom:24px;
+    padding: 80px 265px 80px 265px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+}
+.margin-subscribe{
+    margin-bottom: 24px;
+}
+.email-box{
+    width: 600px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+
+}
+.place-holder-padding{
+    padding-left: 40px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.input-subscribe{
+    display: flex;
+    justify-content: center;
+}
+.btn-subscribe{
+   
+    border: none;
+    height:52px;
+    margin-top: 0;
+    padding: 17px 34px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #FFFFFF;
+    font-size: 18; 
+}
+.btn-subs-hover:hover{
+    background-color: chocolate;
+}
+.note{
+    text-align: center;
+}
+
+
+
   
