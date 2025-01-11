@@ -106,7 +106,7 @@ p{
     color: rgba(14, 14, 14, 0.7);
 }
 .p2{
-    margin:0 160px 50px 160px;
+    margin:0px 160px 50px 160px;
     
 }
 .box-2{
@@ -204,5 +204,42 @@ table{
 .td-pad{
     margin: 24px;
 }
-
-    
+.recent-news{
+    font-size: 32px;
+}
+.satellite{
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+}
+.dates{
+    display: flex;
+    gap: 20px;
+    font-style: none;
+}
+.font-16{
+    font-size: 16px;
+}
+.btn-4{
+    background-color:rgba(0, 106, 80, 1);
+    margin-top: 2px;
+}
+.recent{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.back{
+    background-color: #F1F1F3;
+    width: 1280px;
+    height: 402px;
+    border-radius: 24px;
+    padding: 48px;
+}
+.margin_top{
+    margin-top: 0px;
+}
+.all-content{
+    margin-bottom: 20px;
+}
+  
