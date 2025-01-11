@@ -204,6 +204,9 @@ table{
     padding: 10px 14px;
     border-radius: 4px;
 }
+.td-center{
+    text-align: center;
+}
 .table-pad{
     
     background-color: #F1F1F3;
@@ -268,13 +271,11 @@ table{
     margin-top: 0;
 }
 .btn-taka{
-    padding: 40px;
+    /* padding: 40px; */
     border-radius: 16px; 
     min-width: 240px;
     height: 128px;
     border-style: none;
-    
-    
 }
 .btn-hover:hover{
     background-color: rgba(198, 228, 214, 1);
@@ -283,10 +284,12 @@ table{
     display: flex;
     gap: 24px;
     justify-content: center;
+    text-align: center;
     margin-bottom: 30px;
 }
 .place-holder{
-    min-width: 1032px;
+    /* min-width: 1032px; */
+    width: 920px;
     padding: 20px 40px;
     display: flex;
     justify-content: center;
@@ -294,10 +297,16 @@ table{
     background-color: #F1F1F3;
     border:none;
 }
+.tk{
+    font-size: 40px;
+    text-align: center;
+}
 .place{
     display: flex;
     justify-content: center;
     margin-bottom:30px;
+    margin-left: 124px;
+    margin-right: 124px;
 }
 .button{
     display: flex;
@@ -348,6 +357,16 @@ table{
 .btn-subs-hover:hover{
     background-color: chocolate;
 }
+.btn-2nd-hover:hover{
+    background-color: chocolate;
+}
+.btn-1st-hover:hover{
+    background-color: burlywood;
+}
+.btn-3rd-hover:hover{
+    background-color: blueviolet;
+}
+
 .note{
     text-align: center;
 }
