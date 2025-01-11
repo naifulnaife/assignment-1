@@ -99,6 +99,9 @@
     width: 302px;
     height: 244px;
 }
+.margin-bot{
+    margin-bottom: 20px;
+}
 
 .box{
     padding: 32px;
